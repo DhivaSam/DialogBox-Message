@@ -52,6 +52,7 @@ public class ValidateFav extends BaseTest{
 		  String actual="You need to login first";
 		  assertEquals(actual,s);
 		  driver.manage().timeouts().implicitlyWait(2000, TimeUnit.SECONDS);
+		 System.out.println("Test case passed");
 		 
 	}
 
